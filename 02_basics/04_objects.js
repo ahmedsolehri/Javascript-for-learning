@@ -1,39 +1,39 @@
-// const tinderUder = new Object()
-const tinderUser = {}
+// // const tinderUder = new Object()
+// const tinderUser = {}
 
-tinderUser.id = "123552abc"
-tinderUser.name = "ozil"
-tinderUser.isloggedIN = false;
+// tinderUser.id = "123552abc"
+// tinderUser.name = "ozil"
+// tinderUser.isloggedIN = false;
 
-// console.log(tinderUser);
+// // console.log(tinderUser);
 
-const regularUser = {
-    email: "ahmed@gmail.com",
-    fullname: {
-        userfullname: {
-            firstname: "jawad",
-            lastname: "Abdur Rehman"
-        }
+// const regularUser = {
+//     email: "ahmed@gmail.com",
+//     fullname: {
+//         userfullname: {
+//             firstname: "jawad",
+//             lastname: "Abdur Rehman"
+//         }
 
-    }
-}
+//     }
+// }
 
-// console.log(regularUser.fullname)
-// console.log(regularUser.fullname.userfullname)
-// console.log(regularUser.fullname.userfullname.lastname)
+// // console.log(regularUser.fullname)
+// // console.log(regularUser.fullname.userfullname)
+// // console.log(regularUser.fullname.userfullname.lastname)
 
-const obj1 = {
-    1: "a", 2: "b"
-}
-const obj2 = {
-    3: "a", 4: "b"
-}
+// const obj1 = {
+//     1: "a", 2: "b"
+// }
+// const obj2 = {
+//     3: "a", 4: "b"
+// }
 
-const obj3 = Object.assign(obj1, obj2)
-console.log(obj3)
-const obj4 = {...obj1, ...obj2}
-console.log(typeof obj4)
-// const obj3 = objt1.
+// const obj3 = Object.assign(obj1, obj2)
+// console.log(obj3)
+// const obj4 = {...obj1, ...obj2}
+// console.log(typeof obj4)
+// // const obj3 = objt1.
 
 
 
@@ -104,12 +104,13 @@ const course = {
     courseInstructor: "hitesh"
 }
 
+
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
 
 // {
 //     "name": "hitesh",
