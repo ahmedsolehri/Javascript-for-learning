@@ -27,14 +27,14 @@ function addTwoNumbers(num1, num2){
 
 function loginUderMessage(username){
     if(username  === undefined){
-        console.log("Please enter a username")
+        // console.log("Please enter a username")
         return 
     }
     return `${username} just logged in`
 }
 
-const login = loginUderMessage("Ahmed")
-console.log(login)
+// const login = loginUderMessage("Ahmed")
+// console.log(login)
 
 
 
@@ -87,15 +87,28 @@ console.log(login)
 
 // // console.log(calculateCartPrice(200, 400, 500, 2000))
 
-// const user = {
-//     username: "hitesh",
-//     prices: 199
-// }
+const user = {
+    username: "hitesh",
+    prices: 199
+}
 
-// function handleObject(anyobject){
-//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
-// }
 
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.prices}`);
+}
+handleObject(user)
+
+const user1 ={
+    email: "Sana",
+    volume: 22
+}
+
+function handleObject1(anyobject1){
+    console.log(`email is ${anyobject1.email} and volume is ${anyobject1.volume}`);
+}
+
+handleObject1(user1)
 // // handleObject(user)
 // handleObject({
 //     username: "sam",
